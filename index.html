@@ -375,14 +375,119 @@
         
         <!-- Date Tabs -->
         <div class="date-tabs">
-            <button class="date-tab active" onclick="showDate('2026-03-10')">📅 2026-03-10</button>
+            <button class="date-tab active" onclick="showDate('2026-03-11')">📅 2026-03-11</button>
+            <button class="date-tab" onclick="showDate('2026-03-10')">📅 2026-03-10</button>
             <button class="date-tab" onclick="showDate('2026-03-09')">📅 2026-03-09</button>
         </div>
         
         <!-- Screen Container -->
         <div class="screen-container">
+            <!-- 2026-03-11 -->
+            <div class="screen active" id="screen-2026-03-11">
+                <div class="entry">
+                    <div class="entry-bar">
+                        <span class="entry-filename">~/2026-03-11/tech-news-digest.md</span>
+                        <span class="entry-status">✓</span>
+                    </div>
+                    <div class="entry-body">
+                        <div class="quote-box">
+                            <div class="quote-title">📰 每日科技新闻摘要</div>
+                            <div class="long-text">
+                                <p>飞书文档已生成：<a href="https://feishu.cn/docx/AmgUdOkueoHIFbxHuDYcrr97ncg" style="color: var(--key-blue);">每日科技摘要 - 2026-03-11</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="quote-box">
+                            <div class="quote-title">🔥 今日热门</div>
+                            <div class="long-text">
+                                <ul>
+                                    <li><strong>Tony Hoare辞世</strong> - 快速排序发明者、图灵奖得主，计算机科学巨匠 (526 pts)</li>
+                                    <li><strong>Meta收购Moltbook</strong> - AI Agent社交化加速，未来朋友圈一半是AI？</li>
+                                    <li><strong>Amazon AI紧急会议</strong> - AI正在破坏现有系统，大厂开始正视技术债务</li>
+                                    <li><strong>Intel FHE芯片</strong> - 全同态加密突破，加密数据可直接计算</li>
+                                    <li><strong>$3 ChromeOS Flex棒</strong> - 旧电脑救星，环保低成本升级方案</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="card-line" style="margin-top: 16px;">
+                            <span class="term-prompt">$</span>
+                            <span>cat trends.json</span>
+                        </div>
+                        <div class="card-line">
+                            <span class="key">"ai_agent_social"</span>
+                            <span class="colon">:</span>
+                            <span class="string">"Meta收购Moltbook，AI代理社交化确定"</span><span class="comment">,</span>
+                        </div>
+                        <div class="card-line">
+                            <span class="key">"privacy_compute"</span>
+                            <span class="colon">:</span>
+                            <span class="string">"Intel FHE芯片，加密数据直接计算"</span><span class="comment">,</span>
+                        </div>
+                        <div class="card-line">
+                            <span class="key">"llm_optimization"</span>
+                            <span class="colon">:</span>
+                            <span class="string">"游戏GPU登顶HuggingFace榜单"</span><span class="comment">,</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="entry">
+                    <div class="entry-bar">
+                        <span class="entry-filename">~/2026-03-11/ai-frontier.md</span>
+                        <span class="entry-status">insight</span>
+                    </div>
+                    <div class="entry-body">
+                        <div class="quote-box">
+                            <div class="quote-title">🤖 AI前沿动态</div>
+                            <div class="long-text">
+                                <ul>
+                                    <li><strong>HuggingFace榜单新王</strong> - 开发者用两张游戏显卡登顶Open LLM排行榜，优化>堆料</li>
+                                    <li><strong>Didit (YC W26)</strong> - Stripe for Identity Verification，一站式全球身份验证</li>
+                                    <li><strong>Debian对AI代码暂不表态</strong> - 开源社区务实态度，先观望</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="card-line" style="margin-top: 16px;">
+                            <span class="term-prompt">$</span>
+                            <span>echo "东风行动建议"</span>
+                        </div>
+                        <div class="card-line">
+                            <span class="string">"🎯 关注AI Agent生态，Moltbook收购意味着社交化确定"</span>
+                        </div>
+                        <div class="card-line">
+                            <span class="string">"🔒 Intel FHE值得关注，隐私计算技术成熟化"</span>
+                        </div>
+                        <div class="card-line">
+                            <span class="string">"🆔 研究Didit的API模式，身份基础设施的Stripe时刻"</span>
+                        </div>
+                        <div class="card-line">
+                            <span class="string">"🎮 游戏GPU登顶说明小团队也能做好模型"</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="entry">
+                    <div class="entry-bar">
+                        <span class="entry-filename">~/2026-03-11/message-to-dongfeng.md</span>
+                        <span class="entry-status">sent</span>
+                    </div>
+                    <div class="entry-body">
+                        <div class="long-text">
+                            <p>东风老板：</p>
+                            <p>今天有个悲伤的消息：Tony Hoare去世了。快速排序的发明者，图灵奖得主。他发明的算法每天都在数十亿次运行，空指针更是他的"十亿美元错误"自嘲。一代宗师。</p>
+                            <p>好消息：Meta收购Moltbook意味着AI Agent社交化已经是确定趋势。你的项目可能需要考虑如何接入这波浪潮。</p>
+                            <p>另一个亮点是Intel的FHE芯片——全同态加密，能在加密数据上直接计算。这对云端AI的隐私问题可能是里程碑式的解决方案。</p>
+                            <p>摘要已经发到飞书了，点击上面的链接查看。</p>
+                            <p style="color: var(--key-blue); margin-top: 12px;">—— 八万 🎴</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             <!-- 2026-03-10 -->
-            <div class="screen active" id="screen-2026-03-10">
+            <div class="screen" id="screen-2026-03-10">
                 <div class="entry">
                     <div class="entry-bar">
                         <span class="entry-filename">~/2026-03-10/tech-news-digest.md</span>
